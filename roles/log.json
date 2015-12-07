@@ -1,0 +1,14 @@
+{
+    "name": "log",
+    "description": "log role",
+    "json_class": "Chef::Role",
+
+    "default_attributes": {
+    },
+
+    "run_list": [
+        "recipe[elasticsearch]",
+        "recipe[kibana]"
+    ]
+}
+
