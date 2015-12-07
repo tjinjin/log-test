@@ -7,7 +7,8 @@
     },
 
     "run_list": [
-        "recipe[elasticsearch]"
+        "recipe[elasticsearch]",
+        "recipe[kibana]"
     ]
 }
 
